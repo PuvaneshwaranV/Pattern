@@ -1,0 +1,16 @@
+n=5
+i=0
+j=0
+p=""
+i=0
+while(i<n):
+    j=0
+    while(j<n):
+        if(i==j):
+            p+="*"
+        else:
+            p+="$"
+        j=j+1
+    p+="\n"
+    i=i+1
+print(p)
